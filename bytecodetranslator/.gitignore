@@ -1,0 +1,7 @@
+/.vs
+/Binaries
+*.*proj.user
+bin
+obj
+project.lock.json
+/TestResults

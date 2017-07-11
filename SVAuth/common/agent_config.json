@@ -1,0 +1,65 @@
+{
+  "__SECTION_1__": "This section configures the web server.",
+  "WebAppSettings": {
+    "hostname": "localhost",
+    "scheme": "http",
+    "port": "80",
+    "platform": {
+      "name": "php"
+    }
+  },
+
+  "AgentSettings": {
+    "scheme": "https",
+    "port": "3000",
+    "agentScope": "local",
+    "agentScope_valid_values": "The agentScope can be 'local', '.foo.com' or '*'. ",
+    "agentHostname": "localhost",
+    "SSLCertFile": "ssl-cert/certkey.p12",
+    "SSLCertFilePassword": ""
+  },
+
+  "__SECTION_2__": "This section provides the registration info of each 3rd-party service.",
+  "AppRegistration": {
+    "Facebook": {
+      "appId": "987401994700129",
+      "appSecret": "29bef3a574f74b02195afb53afd3f152"
+    },
+    "Microsoft": {
+      "appId": "2423c459-e1ae-4d41-937b-b2b765e406a3",
+      "appSecret": "8Xxo7vObusv0d2zXSySaLMy"
+    },
+    "MicrosoftAzureAD-real": {
+      "appId": "09d94da4-69a0-44cb-811b-525f0525542c",
+      "appSecret": "+Pz2uu9Kj8z7Z6VMMz50sS84KazUdnpwxJvTTw+jjWU="
+    },
+    "MicrosoftAzureAD": {
+      "appId": "client-001",
+      "appSecret": "secret-001"
+    },
+    "Google": {
+      "clientID": "303824059686-i6ef58367t5i50k8j6bbarvhgudu4nes.apps.googleusercontent.com",
+      "clientSecret": "XX9_EcCsMx1gtZhJv_3vdIMg"
+    },
+    "Yahoo": {
+      "clientID": "dj0yJmk9OWl3QUE4OGkyQUswJmQ9WVdrOVZUTnlUVk5sTjJjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD00Yw--",
+      "clientSecret": "5d14dd29003e144a0f6af4b3b1831c45378aa9d2"
+    },
+    "LinkedIn": {
+      "clientID": "86qyssj0d8dtgx",
+      "clientSecret": "1QK0stw2jVDUTgCH",
+    },
+    "Weibo": {
+      "clientID": "1860713139",
+      "clientSecret": "130188626a1b8a70516d84057db2ea18"
+    }
+  },
+
+  "stateSecretKey": "your logins are belong to us",
+
+  "__SECTION_3__": "Do not modify this section unless you know what you are doing.",
+  "SVXSettings": {
+    "SVXFolderPath": "..\\svx-runtime-data"
+  },
+  "sendInternalTrafficViaFiddler": false
+}
